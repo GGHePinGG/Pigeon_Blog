@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>和平鸽丨静水流深</title>
+  
+  <subtitle>自己有海，不赶浪潮</subtitle>
+  <link href="https://www.pigeon.us.kg/atom.xml" rel="self"/>
+  
+  <link href="https://www.pigeon.us.kg/"/>
+  <updated>2024-09-09T05:49:16.705Z</updated>
+  <id>https://www.pigeon.us.kg/</id>
+  
+  <author>
+    <name>Lee0和平鸽</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于黎明杀机4.4.2版本的离线版联机教程！</title>
+    <link href="https://www.pigeon.us.kg/wz/DBD442-OfflineGame-lianji/"/>
+    <id>https://www.pigeon.us.kg/wz/DBD442-OfflineGame-lianji/</id>
+    <published>2024-09-08T15:35:23.000Z</published>
+    <updated>2024-09-09T05:49:16.705Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于这篇文章"><a href="#关于这篇文章" class="headerlink" title="关于这篇文章"></a>关于这篇文章</h2><p>这是一篇基于黎明杀机4.4.2版本离线与朋友联机私服的教程！<br>游戏内的饰品，角色，技能为全解锁，血点为满，可以自行配置！<br>文末有解除60FPS的锁帧限制！可以放心使用！<br><strong>本文仅供学习参考，建议大家购入正版。</strong></p><h2 id="在启动游戏前的准备"><a href="#在启动游戏前的准备" class="headerlink" title="在启动游戏前的准备"></a>在启动游戏前的准备</h2><ul><li>在下载和启动游戏前，你需要预留约 60 GB 的存储空间来预留游戏存储。</li><li>游戏解压完成后，你可以删除压缩包。</li></ul><h3 id="在Steam上需要做的"><a href="#在Steam上需要做的" class="headerlink" title="在Steam上需要做的"></a>在Steam上需要做的</h3><p>你需要下载一个名为 “Worlds Of Goo Demo” 的游戏，并且下载它到任何地方。（实测下载完毕后容量约为40MB左右，不怎么占空间）<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/86a5d37c2ff3de0b98b2f410cbdfddd8.png"                      alt="DBD442-IS-1.png"                ><br>该游戏将作为游戏的启动介质。</p><h3 id="下载游戏"><a href="#下载游戏" class="headerlink" title="下载游戏"></a>下载游戏</h3><p>你可以在这些介质下载游戏。<br><a class="link"   href="https://pan.yukaidi.com/s/AQX4SJ?password=dbdl" >yukaidi网盘 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 该介质下载不限速不限下载流量，游戏已打补丁。<br><a class="link"   href="https://www.123pan.com/s/RH9djv-oVaad.html" >123云盘 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提取码:lBeG 此介质每天限制10GB下载，如果你是123云盘会员可以使用该介质下载。</p><h3 id="解压游戏"><a href="#解压游戏" class="headerlink" title="解压游戏"></a>解压游戏</h3><p>需要使用解压软件进行解压。<br>推荐使用 <a class="link"   href="https://www.423down.com/9735.html" >Bandizip <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 进行解压。</p><h2 id="启动游戏和创建房间"><a href="#启动游戏和创建房间" class="headerlink" title="启动游戏和创建房间"></a>启动游戏和创建房间</h2><p>游戏解压完毕后，启动 “启动游戏和大厅.exe” 启动游戏。<br><strong>注意，在没启动Steam时无法启动游戏，并且你的Steam内必须下载名为 “Worlds Of Goo Demo” 的游戏。否则无法启动。</strong><br>打开 “启动游戏和大厅.exe” 后，你会看到如下页面：<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png"                      alt="DBD442-LA-1.png"                ><br>在页面中输入 1 以跳转启动游戏。（注意不是用鼠标点1，因为这本质是一个bat文件，被改成exe罢了。）<br>游戏启动后，点击“自定义游戏”，进入屠夫游戏选择页面：<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/8fe379d883e33270806e23934039f495.png"                      alt="DBD442-LA-2.png"                ><br>选择完角色和技能后，回到“启动游戏和大厅.exe”页面。<br>在主界面中键入 3 进入自定义大厅页面。<br>而后键入 1 作为屠夫游戏<br><strong>注意，你需要公开你的Steam隐私设置，比如在线状态，正在游玩的游戏等等。如果你不确定这些设置有没有打开，请键入 2 查看（需要挂Steam++或者Steam社区加速，所有选项都要为公开。）</strong><br>而后键入 1 创建游戏大厅<br>而后键入需要加入的玩家人数（玩家满后自动开始，最小为1，最大为4，如图所示。）<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/5ba84e81a3506220738b5189614df630.png"                      alt="DBD442-LA-3.png"                ><br>选择好玩家人数后，按 Enter 键即可开设房间。<br>然后屠夫就可以在游戏里点击准备就绪，等待玩家加入。<br><strong>注意，求生者玩家需要在一分钟内加入服务器，否则屠夫的房间就会自动被关闭，请注意把控时间，不然开房间的屠夫红温就废了</strong><br><strong>屠夫玩家记得在求生者准备就绪之后开房间，不然超时就得重启游戏</strong><br>点击准备就绪后，到你的Steam个人主页，复制加入游戏链接给你的朋友。如下图所示。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png"                      alt="DBD442-TF-LINK.png"                ><br>复制之后发送给你的朋友，这将是连接进服的方式。</p><h2 id="求生者加入屠夫房间"><a href="#求生者加入屠夫房间" class="headerlink" title="求生者加入屠夫房间"></a>求生者加入屠夫房间</h2><p>游戏解压完毕后，启动 “启动游戏和大厅.exe” 启动游戏。<br><strong>注意，在没启动Steam时无法启动游戏，并且你的Steam内必须下载名为 “Worlds Of Goo Demo” 的游戏。否则无法启动。</strong><br>打开 “启动游戏和大厅.exe” 后，你会看到如下页面：<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png"                      alt="DBD442-LA-1.png"                ><br>在页面中输入 1 以跳转启动游戏。（注意不是用鼠标点1，因为这本质是一个bat文件，被改成exe罢了。）<br>进入游戏后，点击“选择成为逃生者”，进入逃生者角色选择页面。<br><strong>注意，逃生者要在屠夫开房间之前带好技能之类的，不然屠夫房间一分钟内没进屠夫就要重开，屠夫会红温。</strong><br>选择完角色和技能后，回到“启动游戏和大厅.exe”页面。<br>在主界面中键入 3 进入自定义大厅页面。<br>而后键入 2 作为逃生者游戏。<br>进入页面后，键入 2 以 DirectURL 连接。<br>然后键入屠夫发送给你的链接，复制到软件内，即可加入游戏，如下图。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/dc7ab26ece455cca4286afe998b8edde.png"                      alt="DBD442-TS-1.png"                ><br>或者你可以自己去屠夫的个人主页获取链接，获取方式如下图。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png"                      alt="DBD442-TF-LINK.png"                ><br>键入加入链接后，即会看到Success页面，如下图。如显示其他内容即为启动失败。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/7eabe0b01a7a38e51eacd8d637dc19bf.png"                      alt="DBD442-TS-2.png"                ><br>看到该页面后，回到游戏，点击准备就绪就会进入屠夫的房间，即可与屠夫欢乐绕圈圈了哦~</p><h2 id="拓展-解除黎明杀机60fps帧数锁定限制"><a href="#拓展-解除黎明杀机60fps帧数锁定限制" class="headerlink" title="*拓展 解除黎明杀机60fps帧数锁定限制"></a>*拓展 解除黎明杀机60fps帧数锁定限制</h2><h2 id="本文参考视频"><a href="#本文参考视频" class="headerlink" title="本文参考视频"></a>本文参考视频</h2><p>感谢B站 <a class="link"   href="https://www.bilibili.com/video/BV1WDG6e5E4t/" >@青香的饕餮 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供文章灵感和游戏资源。</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112585303132544&bvid=BV1WDG6e5E4t&cid=500001576202352&p=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content>
+    
+    
+    <summary type="html">这是一篇基于黎明杀机4.4.2版本离线与朋友联机私服的教程！</summary>
+    
+    
+    
+    <category term="Game" scheme="https://www.pigeon.us.kg/categories/Game/"/>
+    
+    
+    <category term="非对称游戏" scheme="https://www.pigeon.us.kg/tags/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="联机游戏" scheme="https://www.pigeon.us.kg/tags/%E8%81%94%E6%9C%BA%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="黎明杀机" scheme="https://www.pigeon.us.kg/tags/%E9%BB%8E%E6%98%8E%E6%9D%80%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小米手环+米环自定义工具专用的小说库！</title>
+    <link href="https://www.pigeon.us.kg/wz/BookSite/"/>
+    <id>https://www.pigeon.us.kg/wz/BookSite/</id>
+    <published>2024-07-10T01:10:08.000Z</published>
+    <updated>2024-09-08T15:47:40.377Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写这篇文章干嘛"><a href="#写这篇文章干嘛" class="headerlink" title="写这篇文章干嘛"></a>写这篇文章干嘛</h1><p>知周所众，环间电子书APP内能导入至小米手环的小说只支持4MB以下的txt文件，但是很多的长篇小说或者是短篇小说不是txt格式或者是大于4MB的文件。<br>为了丰富我们的课余生活（不），特写了这篇文章，提供一个米环自定义工具支持的全4MB以下&#x2F;每个文件的小说库供给大家使用！！！<br>希望大家在评论区给文章一个表情回复，在评论区留下你想看的小说或者<a class="link"   href="https://forms.office.com/r/QE4mfa6MdD" >在这里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>提供你想看小说的链接，我们会尽快受理并且上传到库！</p><h1 id="进入小说库和下载小说"><a href="#进入小说库和下载小说" class="headerlink" title="进入小说库和下载小说"></a>进入小说库和下载小说</h1><p>Q：没有你想看的小说怎么办？<br>A：在评论区留下你想看的小说或者<a class="link"   href="https://forms.office.com/r/QE4mfa6MdD" >在这里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>提供你想看小说的链接，我们会尽快受理并且上传到库！</p><p>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;<br>小说库链接：<a class="link"   href="https://www.ilanzou.com/s/wY1gIQp" >https://www.ilanzou.com/s/wY1gIQp <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>注意</strong>：环间电子书等表盘在表盘自定义工具为赞助者资源，请大力赞助作者再来看！<br>使用方法：<br>1.进入小说库下载小说<br>2.找到小说下载位置<br>3.用环间电子书App导入小说。</p><h1 id="一些你可能用得到的链接"><a href="#一些你可能用得到的链接" class="headerlink" title="一些你可能用得到的链接"></a>一些你可能用得到的链接</h1><p>米坛社区：<a class="link"   href="https://www.bandbbs.cn/" >https://www.bandbbs.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>表盘自定义工具下载：<a class="link"   href="https://www.bandbbs.cn/threads/9797/" >https://www.bandbbs.cn/threads/9797/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>MT管理器：<a class="link"   href="https://mt2.cn/download/" >https://mt2.cn/download/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
+    
+    
+    <summary type="html">这个小说库适用于 **小米手环8Pro/小米手环7** 等**支持米环自定义工具的手表/手环型号**。需要就点进来看看罢！</summary>
+    
+    
+    
+    <category term="Book&amp;Read" scheme="https://www.pigeon.us.kg/categories/Book-Read/"/>
+    
+    
+    <category term="Book" scheme="https://www.pigeon.us.kg/tags/Book/"/>
+    
+    <category term="Read" scheme="https://www.pigeon.us.kg/tags/Read/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Papa Louie Game Arcade 不用360游玩教程丨老爹全系列游戏！</title>
+    <link href="https://www.pigeon.us.kg/wz/Papa-Louies/"/>
+    <id>https://www.pigeon.us.kg/wz/Papa-Louies/</id>
+    <published>2023-10-06T04:13:57.000Z</published>
+    <updated>2024-07-08T14:23:11.746Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于这篇文章"><a href="#关于这篇文章" class="headerlink" title="关于这篇文章"></a>关于这篇文章</h2><p>相信大家在童年时代都有接触过Papa Louie的游戏，比如老爹汉堡店（废话）<br>我相信你们电子阳痿才会点进这个页面（不是），所以写了这篇文章来教大家如何在不安装360安全浏览器，QQ浏览器等支持Flash的浏览器来游玩这些游戏！</p><h2 id="怎么玩？"><a href="#怎么玩？" class="headerlink" title="怎么玩？"></a>怎么玩？</h2><h3 id="下载游戏"><a href="#下载游戏" class="headerlink" title="下载游戏"></a>下载游戏</h3><p>首先我们前往游戏官网，下载你想玩的游戏：<br><a class="link"   href="https://www.flipline.com/freegames.html" >👉游戏官网下载👈 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://www.123pan.com/s/fNT9-dI0HH.html" >👉国内镜像下载👈 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提取密钥:ldie</p><h3 id="使用-Flash-Player-打开"><a href="#使用-Flash-Player-打开" class="headerlink" title="使用 Flash Player 打开"></a>使用 Flash Player 打开</h3><p>Flash Player 和 Flash 绿色全版本 已经在国内镜像链接公示。<br><a class="link"   href="https://www.123pan.com/s/fNT9-dI0HH.html" >👉国内镜像下载👈 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提取密钥:ldie<br>1.打开Flash Player软件，并且解压游戏包。<br>2.打开Flash Player，点击文件，打开，会打开位置框，点击“浏览”<br>3.找到解压后swf文件的位置（后缀为.swf）<br>4.点击他，确定，就可以玩了！<br>Tips:如果你后面想玩，点击文件，有保存好的路径，直接点击进入即可。记住你要玩的游戏叫什么名字！</p>]]></content>
+    
+    
+    <summary type="html">回味玩老爹系列时候的童年！</summary>
+    
+    
+    
+    <category term="Game" scheme="https://www.pigeon.us.kg/categories/Game/"/>
+    
+    
+    <category term="Mini Game" scheme="https://www.pigeon.us.kg/tags/Mini-Game/"/>
+    
+    <category term="Flash Games" scheme="https://www.pigeon.us.kg/tags/Flash-Games/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的世界国际版-外置登录联机游戏教程！</title>
+    <link href="https://www.pigeon.us.kg/wz/about-and-how-lianji/"/>
+    <id>https://www.pigeon.us.kg/wz/about-and-how-lianji/</id>
+    <published>2023-09-08T05:35:23.000Z</published>
+    <updated>2024-09-08T15:47:31.595Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先感谢你来看这篇文章！我相信你对我的世界联机有一定的不了解，希望这篇文章可以帮到你~！<br>虽然这篇文章是教大家如何免费与朋友联机，但是还是希望大家入正哦！<br>正版用户不会联机的话直接登录正版然后看模块 #联机方式 哦！</p><h1 id="账号注册与进入游戏"><a href="#账号注册与进入游戏" class="headerlink" title="账号注册与进入游戏"></a>账号注册与进入游戏</h1><h2 id="注册一个皮肤站账号"><a href="#注册一个皮肤站账号" class="headerlink" title="注册一个皮肤站账号"></a>注册一个皮肤站账号</h2><p>这个市面上有一大堆的外置皮肤站点<br>这里推荐两个：<br><a class="link"   href="https://littleskin.cn/" >Littleskin <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="https://skin.prinzeugen.net/?lang=zh_CN" >Blessing Skin <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>这篇文章将用 LittleSkin 作为演示。</p><p>1.注册一个 LittleSkin 账户<br><strong>注意：在注册前，你需要拥有一个邮箱。</strong><br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/d889cf7d10fcc18e3ff396cac9c88a3d.png"                      alt="登录界面"                ></p><p>2.找到“快速配置启动器”模块，并且保留这个页面，后面有用！<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/21e8563dfecb7a42d5eecc010bf2a661.png"                      alt="“快速配置启动器”模块"                ></p><h2 id="使用第三方启动器进入游戏"><a href="#使用第三方启动器进入游戏" class="headerlink" title="使用第三方启动器进入游戏"></a>使用第三方启动器进入游戏</h2><h3 id="使用-HMCL-进入游戏"><a href="#使用-HMCL-进入游戏" class="headerlink" title="使用 HMCL 进入游戏"></a>使用 HMCL 进入游戏</h3><p>你需要下载<a class="link"   href="https://hmcl.huangyuhui.net/download/" >HMCL <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以启动游戏。<br>1.打开HMCL，在“账户”下点击头像。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/2016550da13f2b357c49771f86cad625.png"                      alt="HMCL-1"                ></p><p>2.HMCL是非常方便的，给你提供了LittleSkin的登录入口，但是如果你要使用其他的登录方式的话，请遵循下列步骤。</p><p>2-1.点击“添加外置服务器”。<br>2-2.输入“快速配置启动器”模块中的 Yggdrasil API 认证服务器地址.<br>2-3.这时旁边会出现一个新的登录方式，这样就添加成功了。</p><p>3.在你添加的登录方式中输入你注册时的邮箱和密码，这样就大功告成了！</p><h3 id="使用-PCL2-进入游戏"><a href="#使用-PCL2-进入游戏" class="headerlink" title="使用 PCL2 进入游戏"></a>使用 PCL2 进入游戏</h3><p>你需要下载<a class="link"   href="https://afdian.net/p/0164034c016c11ebafcb52540025c377" >PCL2 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以启动游戏。<br>1.打开PCL2，下载一个你要玩的游戏版本。<br>2.点击版本选择→你下载的新版本（或者你要编辑的新版本）→设置（齿轮图标）→设置 完成步骤后找到“服务器”模块。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/3f58f21ee9123ea04c5d1c253c52012f.png"                      alt="PCL-1"                ></p><p>3.点击“登录方式”，选择“第三方登录：Authlib-injector 或 LittleSkin”<br>4.PCL2同样给予了一键设置为LittleSkin的按钮，点击它就可以了！<br>但是如果你要使用其他的登录方式的话，请查看下图并遵循下列步骤。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/b9a3377dbdd16db0e8fdfb2a9e9f3c54.png"                      alt="PCL-2"                ></p><p>5.回到主页，输入你注册时的邮箱和密码，这样就大功告成了！</p><h3 id="使用-BakaXL-进入游戏"><a href="#使用-BakaXL-进入游戏" class="headerlink" title="使用 BakaXL 进入游戏"></a>使用 BakaXL 进入游戏</h3><p>你需要下载<a class="link"   href="https://www.bakaxl.com/" >BakaXL <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>以启动游戏。<br>1.打开BakaXL，进入本体设置。<br>2.点击“账户与档案”，下拉找到“Minecraft 用户档案”，点击“新增一个档案”。<br>3.将游戏启动模式改为“外置登录”<br>4.依照下图来配置启动器，完成后点击确定。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/7b672a61e3415952e6be389ee80a90f7.png"                      alt="BakaXL-1"                ></p><p>5.启动任一版本时使用外置登录档案，就大功告成了！</p><h3 id="使用-FSM3-进入游戏"><a href="#使用-FSM3-进入游戏" class="headerlink" title="使用 FSM3 进入游戏"></a>使用 FSM3 进入游戏</h3><p><strong>由于该启动器开发者学业极度繁忙，预计在今年OR明年OR后年推出FSM4 敬请期待吧！</strong></p><h1 id="怎么联机？"><a href="#怎么联机？" class="headerlink" title="怎么联机？"></a>怎么联机？</h1><p>这是这篇文章的重点！重中之重！（敲黑板）</p><h2 id="局域网联机"><a href="#局域网联机" class="headerlink" title="局域网联机"></a>局域网联机</h2><p>局域网联机分本地局域网跟虚拟局域网。本地局域网联机的朋友只需要打开游戏→多人游戏→找到朋友开启的局域网游戏就可以玩了！<br>如果你是主机，请进入游戏后点击“在局域网开放”，设置好游戏模式就可以等待你身边的朋友加入辣！</p><h2 id="虚拟局域网联机"><a href="#虚拟局域网联机" class="headerlink" title="虚拟局域网联机"></a>虚拟局域网联机</h2><p>这个方法很适合异地（你和你的朋友不在一个地方但是想一起玩的）联机，当然异地联机方式不止这一种，接下来给大家介绍多种联机方式</p><h3 id="Radmin-Lan-联机"><a href="#Radmin-Lan-联机" class="headerlink" title="Radmin Lan 联机"></a>Radmin Lan 联机</h3><p>这是一段鸽了很久的教程！！！！！！！（咕咕咕）<br>你需要下载<a class="link"   href="https://www.radmin-lan.cn/" >Radmin Lan <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>来进行联机！<br>下载太慢？ <a class="link"   href="https://www.123pan.com/s/fNT9-ci7HH.html" >国内镜像 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <strong>提取码:RadM</strong><br>1.打开 Radmin Lan，创建一个网络。<br>Tips：你需要打开Radmin Lan在线才可以进行游戏！<br><img                       lazyload                     src="/images/loading.svg"                     data-src="http://yanxuan.nosdn.127.net/51816686ea3cc6ed98984f44175d344a.png"                      alt="Radmin-1"                ><br>中间蓝色方框点击“创建网络”，创建一个网络。<br>2.网络名称建议<strong>设置简单点好记的</strong>，这样建设你与你朋友的输入网络名称的长度。<br>TIPS：<strong>密码也设置简单点好记的！！！！</strong><br>3.让朋友在Radmin Lan 界面内点击加入网络，输入你提供的网络名称和密码，这样你俩就处于一个局域网内辣！<br>4.启动Minecraft，在游戏内点击在局域网开放，<strong>记住端口</strong>。<br>5.在你电脑名称下面的数字是IP地址，<strong>完整IP地址为IP地址+端口</strong>，例如：114.514.191.810:1145<br>6.让朋友通过局域网游戏加入服务器或者输入IP地址就可以一起玩辣！</p><h1 id="后记一下"><a href="#后记一下" class="headerlink" title="后记一下"></a>后记一下</h1><p>文章到这里先告一段落啦！希望你看懂了文章的内容并且与你的朋友快乐联机辣！<br>后续这篇文章会补全其他一些联机方式和内容！感谢大家的阅读！</p><p>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</p><p><a class="link"   href="https://space.bilibili.com/387110113" >哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
+    
+    
+    <summary type="html">这篇文章是给不懂使用国际版我的世界与其他伙伴联机的玩家使用的！如果这篇文章遇到了一些难懂隐晦的知识点不懂的话，那就多看几遍，你一定会懂！这很简单！</summary>
+    
+    
+    
+    <category term="Minecraft Tech" scheme="https://www.pigeon.us.kg/categories/Minecraft-Tech/"/>
+    
+    
+    <category term="Minecraft" scheme="https://www.pigeon.us.kg/tags/Minecraft/"/>
+    
+    <category term="我的世界" scheme="https://www.pigeon.us.kg/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+    <category term="Minecraft Online" scheme="https://www.pigeon.us.kg/tags/Minecraft-Online/"/>
+    
+  </entry>
+  
+</feed>

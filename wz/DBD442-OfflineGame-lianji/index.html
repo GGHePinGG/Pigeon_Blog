@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="高中生,我的世界,Minecraft,CS,WIKI,FPS">
+    
+    <meta name="author" content="Lee0和平鸽">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+            <link rel="preconnect" href="https://cdn.staticfile.org" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://www.pigeon.us.kg/wz/dbd442-offlinegame-lianji/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="这是一篇基于黎明杀机4.4.2版本离线与朋友联机私服的教程！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于黎明杀机4.4.2版本的离线版联机教程！">
+<meta property="og:url" content="https://www.pigeon.us.kg/wz/DBD442-OfflineGame-lianji/index.html">
+<meta property="og:site_name" content="和平鸽丨静水流深">
+<meta property="og:description" content="这是一篇基于黎明杀机4.4.2版本离线与朋友联机私服的教程！">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/86a5d37c2ff3de0b98b2f410cbdfddd8.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/8fe379d883e33270806e23934039f495.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/5ba84e81a3506220738b5189614df630.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/dc7ab26ece455cca4286afe998b8edde.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png">
+<meta property="og:image" content="http://yanxuan.nosdn.127.net/7eabe0b01a7a38e51eacd8d637dc19bf.png">
+<meta property="article:published_time" content="2024-09-08T15:35:23.000Z">
+<meta property="article:modified_time" content="2024-09-09T05:49:16.705Z">
+<meta property="article:author" content="Lee0和平鸽">
+<meta property="article:tag" content="非对称游戏">
+<meta property="article:tag" content="联机游戏">
+<meta property="article:tag" content="黎明杀机">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yanxuan.nosdn.127.net/86a5d37c2ff3de0b98b2f410cbdfddd8.png">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="http://yanxuan.nosdn.127.net/0b47146cfd3262d9b00008497dcf6230.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://yanxuan.nosdn.127.net/0b47146cfd3262d9b00008497dcf6230.jpg">
+    <meta name="theme-color" content="#FFB6C1">
+    <link rel="shortcut icon" href="http://yanxuan.nosdn.127.net/0b47146cfd3262d9b00008497dcf6230.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            基于黎明杀机4.4.2版本的离线版联机教程！ -
+        
+        Pigeon&#39;s Blog
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+        <style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    
+<script src="/js/libs/anime.min.js"></script>
+
+    <h1 class="ml13">
+        Pigeon&#39;s Blog
+    </h1>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+
+        anime.timeline({loop: true})
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [100,0],
+                translateZ: 0,
+                opacity: [0,1],
+                easing: "easeOutExpo",
+                duration: 1400,
+                delay: (el, i) => 300 + 30 * i
+            }).add({
+            targets: '.ml13 .letter',
+            translateY: [0,-100],
+            opacity: [1,0],
+            easing: "easeInExpo",
+            duration: 1200,
+            delay: (el, i) => 100 + 30 * i
+        });
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            hidePreloaderAfterTimeout(1000); // Hide after 1000 milliseconds once the window has loaded
+        });
+
+        // Backup failsafe: Hide preloader after a maximum of 5000 milliseconds, regardless of the window load event
+        hidePreloaderAfterTimeout(5000);
+
+        function hidePreloaderAfterTimeout(delay) {
+            setTimeout(function () {
+                var preloader = document.querySelector('.preloader');
+                preloader.style.opacity = '0';
+                setTimeout(function () {
+                    preloader.style.display = 'none';
+                }, 200);
+            }, delay);
+        }
+    </script>
+</div>
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/fonts.css">
+
+    
+<link rel="stylesheet" href="/fonts/Satoshi/satoshi.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"www.pigeon.us.kg","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"5rem","h2":"4rem","h3":"2.8rem","h4":"2.5rem","h5":"2.2rem","h6":"2rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"http://yanxuan.nosdn.127.net/8442e1d4f5e6bff10eb9278b749374dc.jpg","skip_dirs":[]}},"colors":{"primary":"#FFB6C1","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://s3.bmp.ovh/imgs/2024/08/11/b2eaa65690d43220.png","dark":"https://s3.bmp.ovh/imgs/2024/08/11/b2eaa65690d43220.png"},"title":"风止意难平。","subtitle":{"text":["hitokoto"],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/GGHePinGG/","email":"me@lee0p1ge0n.top","bilibili":"https://space.bilibili.com/387110113"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.6.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Friends":{"icon":"fa-solid fa-link","path":"/links/"},"About":{"icon":"fa-regular fa-user","submenus":{"关于我":"https://i.pigeon.us.kg/","联系我":"/contact"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"请多多关照！","show_on_mobile":true,"links":{"文章归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"Bilibili":{"path":"https://space.bilibili.com/387110113","icon":"fa-brands fa-bilibili"},"爱发电":{"path":"https://afdian.com/a/MrPigeonAfdOfficial","icon":"fa-solid fa-dollar-sign"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2023/9/17 11:45:14"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="和平鸽丨静水流深" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="http://yanxuan.nosdn.127.net/0b47146cfd3262d9b00008497dcf6230.jpg">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                Pigeon&#39;s Blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/links/"
+                                        >
+                                    <i class="fa-solid fa-link fa-fw"></i>
+                                    友情链接
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://i.pigeon.us.kg/">
+                                                    关于我
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/contact">
+                                                    联系我
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/links/"
+                        >
+                            <span>
+                                友情链接
+                            </span>
+                            
+                                <i class="fa-solid fa-link fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://i.pigeon.us.kg/">关于我</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/contact">联系我</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>文章归档</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>标签</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>分类</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           target="_blank" rel="noopener" href="https://space.bilibili.com/387110113"
+                        >
+                            <span>Bilibili</span>
+                            <i class="fa-brands fa-bilibili fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           target="_blank" rel="noopener" href="https://afdian.com/a/MrPigeonAfdOfficial"
+                        >
+                            <span>爱发电</span>
+                            <i class="fa-solid fa-dollar-sign fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">10</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">3</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="https://s3.bmp.ovh/imgs/2024/09/08/bbc9d4b3b2fff77c.png" alt="基于黎明杀机4.4.2版本的离线版联机教程！" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-bold backdrop-blur-lg rounded-xl border border-border-color ">基于黎明杀机4.4.2版本的离线版联机教程！</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="http://yanxuan.nosdn.127.net/0b47146cfd3262d9b00008497dcf6230.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">Lee0和平鸽</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-09-08 23:35:23</span>
+        <span class="mobile">2024-09-08 23:35:23</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-09-09 13:49:16</span>
+            <span class="mobile">2024-09-09 13:49:16</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Game/">Game</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E6%B8%B8%E6%88%8F/">非对称游戏</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%81%94%E6%9C%BA%E6%B8%B8%E6%88%8F/">联机游戏</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E9%BB%8E%E6%98%8E%E6%9D%80%E6%9C%BA/">黎明杀机</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h2 id="关于这篇文章"><a href="#关于这篇文章" class="headerlink" title="关于这篇文章"></a>关于这篇文章</h2><p>这是一篇基于黎明杀机4.4.2版本离线与朋友联机私服的教程！<br>游戏内的饰品，角色，技能为全解锁，血点为满，可以自行配置！<br>文末有解除60FPS的锁帧限制！可以放心使用！<br><strong>本文仅供学习参考，建议大家购入正版。</strong></p>
+<h2 id="在启动游戏前的准备"><a href="#在启动游戏前的准备" class="headerlink" title="在启动游戏前的准备"></a>在启动游戏前的准备</h2><ul>
+<li>在下载和启动游戏前，你需要预留约 60 GB 的存储空间来预留游戏存储。</li>
+<li>游戏解压完成后，你可以删除压缩包。</li>
+</ul>
+<h3 id="在Steam上需要做的"><a href="#在Steam上需要做的" class="headerlink" title="在Steam上需要做的"></a>在Steam上需要做的</h3><p>你需要下载一个名为 “Worlds Of Goo Demo” 的游戏，并且下载它到任何地方。（实测下载完毕后容量约为40MB左右，不怎么占空间）<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/86a5d37c2ff3de0b98b2f410cbdfddd8.png"
+                      alt="DBD442-IS-1.png"
+                ><br>该游戏将作为游戏的启动介质。</p>
+<h3 id="下载游戏"><a href="#下载游戏" class="headerlink" title="下载游戏"></a>下载游戏</h3><p>你可以在这些介质下载游戏。<br><a class="link"   target="_blank" rel="noopener" href="https://pan.yukaidi.com/s/AQX4SJ?password=dbdl" >yukaidi网盘 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 该介质下载不限速不限下载流量，游戏已打补丁。<br><a class="link"   target="_blank" rel="noopener" href="https://www.123pan.com/s/RH9djv-oVaad.html" >123云盘 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提取码:lBeG 此介质每天限制10GB下载，如果你是123云盘会员可以使用该介质下载。</p>
+<h3 id="解压游戏"><a href="#解压游戏" class="headerlink" title="解压游戏"></a>解压游戏</h3><p>需要使用解压软件进行解压。<br>推荐使用 <a class="link"   target="_blank" rel="noopener" href="https://www.423down.com/9735.html" >Bandizip <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 进行解压。</p>
+<h2 id="启动游戏和创建房间"><a href="#启动游戏和创建房间" class="headerlink" title="启动游戏和创建房间"></a>启动游戏和创建房间</h2><p>游戏解压完毕后，启动 “启动游戏和大厅.exe” 启动游戏。<br><strong>注意，在没启动Steam时无法启动游戏，并且你的Steam内必须下载名为 “Worlds Of Goo Demo” 的游戏。否则无法启动。</strong><br>打开 “启动游戏和大厅.exe” 后，你会看到如下页面：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png"
+                      alt="DBD442-LA-1.png"
+                ><br>在页面中输入 1 以跳转启动游戏。（注意不是用鼠标点1，因为这本质是一个bat文件，被改成exe罢了。）<br>游戏启动后，点击“自定义游戏”，进入屠夫游戏选择页面：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/8fe379d883e33270806e23934039f495.png"
+                      alt="DBD442-LA-2.png"
+                ><br>选择完角色和技能后，回到“启动游戏和大厅.exe”页面。<br>在主界面中键入 3 进入自定义大厅页面。<br>而后键入 1 作为屠夫游戏<br><strong>注意，你需要公开你的Steam隐私设置，比如在线状态，正在游玩的游戏等等。如果你不确定这些设置有没有打开，请键入 2 查看（需要挂Steam++或者Steam社区加速，所有选项都要为公开。）</strong><br>而后键入 1 创建游戏大厅<br>而后键入需要加入的玩家人数（玩家满后自动开始，最小为1，最大为4，如图所示。）<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/5ba84e81a3506220738b5189614df630.png"
+                      alt="DBD442-LA-3.png"
+                ><br>选择好玩家人数后，按 Enter 键即可开设房间。<br>然后屠夫就可以在游戏里点击准备就绪，等待玩家加入。<br><strong>注意，求生者玩家需要在一分钟内加入服务器，否则屠夫的房间就会自动被关闭，请注意把控时间，不然开房间的屠夫红温就废了</strong><br><strong>屠夫玩家记得在求生者准备就绪之后开房间，不然超时就得重启游戏</strong><br>点击准备就绪后，到你的Steam个人主页，复制加入游戏链接给你的朋友。如下图所示。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png"
+                      alt="DBD442-TF-LINK.png"
+                ><br>复制之后发送给你的朋友，这将是连接进服的方式。</p>
+<h2 id="求生者加入屠夫房间"><a href="#求生者加入屠夫房间" class="headerlink" title="求生者加入屠夫房间"></a>求生者加入屠夫房间</h2><p>游戏解压完毕后，启动 “启动游戏和大厅.exe” 启动游戏。<br><strong>注意，在没启动Steam时无法启动游戏，并且你的Steam内必须下载名为 “Worlds Of Goo Demo” 的游戏。否则无法启动。</strong><br>打开 “启动游戏和大厅.exe” 后，你会看到如下页面：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/fb2a47b3d2814d162a97bcfebc110b93.png"
+                      alt="DBD442-LA-1.png"
+                ><br>在页面中输入 1 以跳转启动游戏。（注意不是用鼠标点1，因为这本质是一个bat文件，被改成exe罢了。）<br>进入游戏后，点击“选择成为逃生者”，进入逃生者角色选择页面。<br><strong>注意，逃生者要在屠夫开房间之前带好技能之类的，不然屠夫房间一分钟内没进屠夫就要重开，屠夫会红温。</strong><br>选择完角色和技能后，回到“启动游戏和大厅.exe”页面。<br>在主界面中键入 3 进入自定义大厅页面。<br>而后键入 2 作为逃生者游戏。<br>进入页面后，键入 2 以 DirectURL 连接。<br>然后键入屠夫发送给你的链接，复制到软件内，即可加入游戏，如下图。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/dc7ab26ece455cca4286afe998b8edde.png"
+                      alt="DBD442-TS-1.png"
+                ><br>或者你可以自己去屠夫的个人主页获取链接，获取方式如下图。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/664db882ea478249f05526cf05cfce04.png"
+                      alt="DBD442-TF-LINK.png"
+                ><br>键入加入链接后，即会看到Success页面，如下图。如显示其他内容即为启动失败。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://yanxuan.nosdn.127.net/7eabe0b01a7a38e51eacd8d637dc19bf.png"
+                      alt="DBD442-TS-2.png"
+                ><br>看到该页面后，回到游戏，点击准备就绪就会进入屠夫的房间，即可与屠夫欢乐绕圈圈了哦~</p>
+<h2 id="拓展-解除黎明杀机60fps帧数锁定限制"><a href="#拓展-解除黎明杀机60fps帧数锁定限制" class="headerlink" title="*拓展 解除黎明杀机60fps帧数锁定限制"></a>*拓展 解除黎明杀机60fps帧数锁定限制</h2><h2 id="本文参考视频"><a href="#本文参考视频" class="headerlink" title="本文参考视频"></a>本文参考视频</h2><p>感谢B站 <a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1WDG6e5E4t/" >@青香的饕餮 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 提供文章灵感和游戏资源。</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112585303132544&bvid=BV1WDG6e5E4t&cid=500001576202352&p=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 基于黎明杀机4.4.2版本的离线版联机教程！</li>
+        <li><strong>作者:</strong> Lee0和平鸽</li>
+        <li><strong>创建于
+                :</strong> 2024-09-08 23:35:23</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-09-09 13:49:16
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://www.pigeon.us.kg//wz/DBD442-OfflineGame-lianji/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E6%B8%B8%E6%88%8F/">#非对称游戏</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E8%81%94%E6%9C%BA%E6%B8%B8%E6%88%8F/">#联机游戏</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E9%BB%8E%E6%98%8E%E6%9D%80%E6%9C%BA/">#黎明杀机</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/wz/BookSite/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">小米手环+米环自定义工具专用的小说库！</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="giscus-container"></div>
+    <script data-swup-reload-script defer>
+        async function loadGiscus() {
+            const giscusConfig = {
+                'src': 'https://giscus.app/client.js',
+                'data-repo': 'GGHePinGG/blog_direct',
+                'data-repo-id': 'R_kgDOIyH4pQ',
+                'data-category': 'Announcements',
+                'data-category-id': 'DIC_kwDOIyH4pc4Cdshv',
+                'data-mapping': 'pathname',
+                'data-strict': '0',
+                'data-reactions-enabled': '1',
+                'data-emit-metadata': '1',
+                'data-theme': 'preferred_color_scheme',
+                'data-lang': 'zh-CN',
+                'data-input-position': 'top',
+                'data-loading': 'lazy',
+                'crossorigin': 'anonymous',
+                'async': true
+            }
+            const giscusScript = document.createElement('script');
+            for (const key in giscusConfig) {
+                giscusScript.setAttribute(key, giscusConfig[key]);
+            }
+            document.getElementById('giscus-container').appendChild(giscusScript);
+        }
+        if ('true') {
+            let loadGiscusTimeout = setTimeout(() => {
+                loadGiscus();
+                clearTimeout(loadGiscusTimeout);
+            }, 1000);
+        } else {
+            document.addEventListener('DOMContentLoaded', loadGiscus);
+        }
+    </script>
+
+
+        
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">基于黎明杀机4.4.2版本的离线版联机教程！</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0"><span class="nav-text">关于这篇文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87"><span class="nav-text">在启动游戏前的准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8Steam%E4%B8%8A%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84"><span class="nav-text">在Steam上需要做的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E6%B8%B8%E6%88%8F"><span class="nav-text">下载游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E5%8E%8B%E6%B8%B8%E6%88%8F"><span class="nav-text">解压游戏</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F%E5%92%8C%E5%88%9B%E5%BB%BA%E6%88%BF%E9%97%B4"><span class="nav-text">启动游戏和创建房间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E7%94%9F%E8%80%85%E5%8A%A0%E5%85%A5%E5%B1%A0%E5%A4%AB%E6%88%BF%E9%97%B4"><span class="nav-text">求生者加入屠夫房间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%93%E5%B1%95-%E8%A7%A3%E9%99%A4%E9%BB%8E%E6%98%8E%E6%9D%80%E6%9C%BA60fps%E5%B8%A7%E6%95%B0%E9%94%81%E5%AE%9A%E9%99%90%E5%88%B6"><span class="nav-text">*拓展 解除黎明杀机60fps帧数锁定限制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83%E8%A7%86%E9%A2%91"><span class="nav-text">本文参考视频</span></a></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Lee0和平鸽</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共 4 篇文章
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.1</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>
