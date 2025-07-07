@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>和平鸽丨静水流深</title>
+  
+  <subtitle>自己有海，不赶浪潮</subtitle>
+  <link href="https://www.lennie.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.lennie.top/"/>
+  <updated>2025-07-07T10:57:00.768Z</updated>
+  <id>https://www.lennie.top/</id>
+  
+  <author>
+    <name>Lee0和平鸽</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>和平鸽的博客在这里是新的开始！</title>
+    <link href="https://www.lennie.top/article/Newstart-Of-PigeonBlog/"/>
+    <id>https://www.lennie.top/article/Newstart-Of-PigeonBlog/</id>
+    <published>2025-04-27T05:21:25.000Z</published>
+    <updated>2025-07-07T10:57:00.768Z</updated>
+    
+    <content type="html"><![CDATA[<p>朋友们好！希望我的新站点和新内容能带给大家一些帮助！由于旧站的内容都太老了，有些甚至过期，图床也炸了，懒得重新整索性删了哈哈哈，后面会重构的！这是新站的第一篇文章，请大家多多指教！</p>]]></content>
+    
+    
+    <summary type="html">本站文章都删光光啦！后面会重构一些实用的内容进去！</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://www.lennie.top/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="https://www.lennie.top/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+</feed>
